@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background: url(../Images/cloud.jpg);
+    
+}
+
+#header {
+    padding: 2rem 2rem;
+	margin-bottom: 2rem;
+    background-color: #cccccc;
+    border-radius: .3rem;
+	color: #212529;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.cursive-header {
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+label {
+	font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#show {
+	margin: 5px;
+    padding: 3px;
+    background-color: #e9ecef;
+    border-radius: .5rem;
+    color:black;
+}
+
+#addShow {
+	margin: 5px;
+    padding: 3px;
+    background-color: #e9ecef;
+    border-radius: .5rem;
+    color:black;
+}
+
+#userSearch {
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Carrois Gothic SC", sans-serif;
+}
+
+#gifArea {
+    float:left;
+	clear: both;
+	display: flex;
+	flex-wrap: wrap;
+    margin: 10px;
+    padding: 40px;
+}
+
+.userGiphy {
+	padding: 2px;
+	width: 80%;
+}
+
+img {
+    position:static;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    padding: 5px;
+    width: 150px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 8px;
+}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
